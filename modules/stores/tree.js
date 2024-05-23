@@ -373,7 +373,7 @@ const setField = (state, path, newField, config) => {
     if (newFieldConfig.initialEmptyWhere && operatorCardinality == 1) { // just `COUNT(grp) > 1` without `HAVING ..`
       // no childeren
     } else {
-      state = addItem(state, path, "rule", uuid(), defaultRuleProperties(config, newField), config);
+      // state = addItem(state, path, "rule", uuid(), defaultRuleProperties(config, newField), config);
     }
     state = fixPathsInTree(state);
 

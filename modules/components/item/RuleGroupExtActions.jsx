@@ -24,7 +24,7 @@ export class RuleGroupExtActions extends PureComponent {
     />;
 
     const delGroupBtn = !immutableGroupsMode && canDeleteGroup && (!isLocked || isLocked && canDeleteLocked) && <Btn 
-      type="delRuleGroup" onClick={(e)=>console.log(e)} label={delGroupLabel} config={config}
+      type="delRuleGroup" onClick={removeSelf} label={delGroupLabel} config={config}
     />;
 
     console.log(delGroupBtn)
