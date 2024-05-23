@@ -158,7 +158,7 @@
     "karma-sourcemap-loader": "^0.3.8",
     "karma-webpack": "^5.0.0",
     "less": "^4.1.1",
-    "less-loader": "^10.0.0",
+    "less-loader": "^12.2.0",
     "material-ui-confirm": "^2.1.2",
     "mini-css-extract-plugin": "^2.2.0",
     "mocha": "^9.0.0",
