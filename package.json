@@ -155,7 +155,7 @@
     "karma-junit-reporter": "^2.0.1",
     "karma-mocha": "^2.0.1",
     "karma-mocha-reporter": "^2.2.5",
-    "karma-sourcemap-loader": "^0.3.8",
+    "karma-sourcemap-loader": "^0.4.0",
     "karma-webpack": "^5.0.0",
     "less": "^4.1.1",
     "less-loader": "^10.0.0",
